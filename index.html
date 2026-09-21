@@ -228,161 +228,101 @@
 <div class="container">
 
   <div class="effective-date">
-    <strong>Effective Date:</strong> July 6, 2026 &nbsp;|&nbsp; 
-    <strong>Last Updated:</strong> July 6, 2026 &nbsp;|&nbsp;
+    <strong>Effective Date:</strong> September 21, 2026 &nbsp;|&nbsp;
+    <strong>Last Updated:</strong> September 21, 2026 &nbsp;|&nbsp;
     <strong>App Version:</strong> 1.0
   </div>
 
   <div class="intro">
-    HISN (حِصْن) is an Islamic-centered parental control application built for Muslim families in the United States. This Privacy Policy explains how HISN handles your information. We built this app to protect children, not to collect data. Please read this carefully — it is written in plain language, not legal jargon.
+    HISN (حِصْن) is an Islamic-centered app for restricting distracting and harmful apps. A parent can manage a child's phone, and an adult can restrict their own phone with the help of an accountability partner. This Privacy Policy explains what information HISN handles, where it is kept, and how to delete it. It is written in plain language, not legal jargon.
   </div>
 
   <!-- 1 -->
   <h2>1. Who We Are</h2>
-  <p>HISN is an independent application developed by a member of the American Muslim community. It is not a corporation. It is not funded by venture capital. It is not designed to profit from your data. The app exists solely to help Muslim parents protect their children from harmful digital content.</p>
-  <p>For questions about this policy, contact us at: <strong>fkhokhar989@gmail.com</strong></p>
+  <p>HISN is an independent application developed by a member of the American Muslim community. It is not a corporation, it is not funded by venture capital, and it is not designed to profit from your data.</p>
+  <p>For questions about this policy, contact us at: <strong>hisnapp@gmail.com</strong></p>
 
   <!-- 2 -->
   <h2>2. What Data HISN Collects</h2>
 
   <div class="highlight-box">
     <strong>The short version:</strong>
-    HISN stores everything locally on your device. We do not have servers that store your personal information. We do not sell data. We do not share data with third parties. We do not run ads.
+    HISN keeps only what it needs to link a parent's phone to a child's phone, or a person to their accountability partner. We do not sell data. We do not run ads. We do not use analytics or tracking. You can delete your account and everything stored with it from inside the app at any time.
   </div>
 
-  <h3>Data stored locally on your device:</h3>
+  <h3>Data stored on our servers (Google Firebase):</h3>
   <table>
-    <tr>
-      <th>Data</th>
-      <th>What it is</th>
-      <th>Why we need it</th>
-    </tr>
-    <tr>
-      <td>Parent PIN</td>
-      <td>A 4-digit PIN you create</td>
-      <td>To lock parent settings so children cannot change them</td>
-    </tr>
-    <tr>
-      <td>Blocked apps list</td>
-      <td>Package names of apps you chose to block</td>
-      <td>To know which apps to block</td>
-    </tr>
-    <tr>
-      <td>Scheduled apps list</td>
-      <td>Package names of apps blocked during scheduled times</td>
-      <td>To apply time-based blocking rules</td>
-    </tr>
-    <tr>
-      <td>Schedule settings</td>
-      <td>Prayer times, bedtime, school hours you configured</td>
-      <td>To know when to activate scheduled blocking</td>
-    </tr>
-    <tr>
-      <td>Selected city</td>
-      <td>The city you selected for prayer time calculation</td>
-      <td>To calculate accurate Salah times for your location</td>
-    </tr>
-    <tr>
-      <td>Language preference</td>
-      <td>English, Arabic, or Urdu</td>
-      <td>To display the app in your preferred language</td>
-    </tr>
+    <tr><th>Data</th><th>What it is</th><th>Why we need it</th></tr>
+    <tr><td>Account email and password</td><td>The email address you sign up with. Your password is handled by Firebase Authentication and is never visible to us.</td><td>To sign you in on Parent, Self-Control and Partner modes</td></tr>
+    <tr><td>Names you type in</td><td>The parent name and child name you enter during setup</td><td>To label the family link on the parent's dashboard</td></tr>
+    <tr><td>Family link and device record</td><td>A six-character linking code, which apps or categories are restricted, schedules (prayer, bedtime, school, Quran time), daily limit, whether protection is on, and when the child's phone was last seen online</td><td>So changes a parent makes reach the child's phone</td></tr>
+    <tr><td>Installed apps list (Android child devices only)</td><td>The names and package names of apps installed on the child's phone</td><td>So the parent can choose which apps to restrict</td></tr>
+    <tr><td>Selection counts (iPhone child devices)</td><td>Only HOW MANY apps, categories and websites are restricted. Apple does not reveal which apps they are, and HISN never uploads Apple's selection tokens.</td><td>To show the parent that a selection exists</td></tr>
+    <tr><td>Requests</td><td>A child's request to open an app or change a setting; a Self-Control user's request to their partner, including the reason and reflection answers they write (the written answers are readable only by the person who wrote them)</td><td>So the parent or partner can approve or deny</td></tr>
+    <tr><td>Accountability partnership</td><td>Your email address and your partner's email address</td><td>To connect the two accounts and send the invitation</td></tr>
+    <tr><td>Prayer confirmations</td><td>Which prayer a child confirmed and when</td><td>To show the parent the prayer log</td></tr>
+    <tr><td>Push notification token</td><td>A device token issued by Apple or Google</td><td>To deliver notifications such as "your parent allowed app changes"</td></tr>
+  </table>
+
+  <h3>Data stored only on your device:</h3>
+  <table>
+    <tr><th>Data</th><th>Why we need it</th></tr>
+    <tr><td>Parent PIN</td><td>To lock the parent dashboard on that phone</td></tr>
+    <tr><td>Selected city and language</td><td>Prayer time calculation and display language</td></tr>
+    <tr><td>Apple Screen Time selection (iPhone)</td><td>The apps chosen in Apple's picker stay on the phone that chose them</td></tr>
   </table>
 
   <h3>Data we do NOT collect:</h3>
   <ul>
-    <li>Your name, email address, or any personal identifiers</li>
-    <li>Your child's name, age, or any information about them</li>
-    <li>Which apps your child tried to open or was blocked from</li>
-    <li>Your location beyond the city you manually select</li>
-    <li>Usage statistics, analytics, or behavioral data</li>
-    <li>Device identifiers, advertising IDs, or fingerprints</li>
-    <li>Any content from your child's messages, photos, or files</li>
+    <li>Your child's age, photos, contacts, messages or files</li>
+    <li>Which apps your child opened, browsing history or search queries</li>
+    <li>Your GPS location (only the city you pick manually is used)</li>
+    <li>Advertising identifiers, analytics, or behavioral profiles</li>
   </ul>
 
   <!-- 3 -->
-  <h2>3. How HISN Works — Accessibility Service</h2>
+  <h2>3. How HISN Works on Android — Accessibility Service</h2>
 
   <div class="warning-box">
-    <strong>Important disclosure about Accessibility Service:</strong> HISN uses Android's Accessibility Service to monitor which app is currently open on the device. This is required to block apps in real time. We are required by Google Play policy to disclose this clearly.
+    <strong>Important disclosure about Accessibility Service:</strong> HISN uses Android's Accessibility Service to see which app is currently open on the device. This is required to block apps in real time. We are required by Google Play policy to disclose this clearly.
   </div>
 
-  <p>HISN's Accessibility Service does the following:</p>
-  <ul>
-    <li>Detects when a blocked app is opened and immediately closes it</li>
-    <li>Monitors the device screen to prevent access to HISN's settings in Android without the parent PIN</li>
-    <li>Checks the current time against your schedule to apply time-based blocking</li>
-  </ul>
-
-  <p>HISN's Accessibility Service does <strong>NOT</strong> do the following:</p>
-  <ul>
-    <li>Read, record, or transmit any text you type</li>
-    <li>Access your messages, emails, or any content you write</li>
-    <li>Take screenshots or record your screen</li>
-    <li>Monitor your browsing history or search queries</li>
-    <li>Send any data off your device</li>
-  </ul>
-
-  <p>All Accessibility Service processing happens entirely on your device. Nothing is sent to any server.</p>
+  <p>HISN's Accessibility Service detects when a restricted app is opened and closes it, prevents access to settings that would disable HISN, and applies your schedules. It does <strong>NOT</strong> read or record what you type, access messages or content, take screenshots, or monitor browsing history. The name of the app currently on screen is processed on the device and is not sent to our servers.</p>
 
   <!-- 4 -->
-  <h2>4. Device Administrator Permission</h2>
-  <p>HISN requests Device Administrator permission to prevent the app from being uninstalled by a child. This permission:</p>
-  <ul>
-    <li>Prevents the app from being deleted without the parent PIN</li>
-    <li>Does NOT allow HISN to remotely wipe your device</li>
-    <li>Does NOT allow HISN to enforce password policies on your device</li>
-    <li>Can be revoked at any time by a parent through HISN's Settings screen using their PIN</li>
-  </ul>
+  <h2>4. How HISN Works on iPhone — Apple Screen Time</h2>
+  <p>On iPhone, HISN uses Apple's Family Controls, Managed Settings and Device Activity frameworks. Apps are chosen on the phone being managed, in Apple's own picker. Apple gives HISN only anonymous tokens for that choice: HISN cannot see which apps were chosen, and the tokens never leave the device. Restrictions are applied by iOS itself.</p>
 
   <!-- 5 -->
-  <h2>5. Prayer Times — External API</h2>
-  <p>HISN calculates Salah times using the <strong>Aladhan API</strong> (aladhan.com). When the Schedule screen loads, the app sends your selected city's coordinates (latitude and longitude) to Aladhan's servers to retrieve prayer times for the current date.</p>
-  <ul>
-    <li>Only the city coordinates you selected are sent — not your real GPS location</li>
-    <li>No personal information is included in this request</li>
-    <li>Aladhan is a free Islamic service — you can review their privacy policy at aladhan.com</li>
-  </ul>
+  <h2>5. Device Administrator Permission (Android)</h2>
+  <p>HISN requests Device Administrator permission so a child cannot uninstall it. It does NOT allow HISN to wipe your device or enforce password policies, and a parent can revoke it at any time from HISN's Settings.</p>
 
   <!-- 6 -->
-  <h2>6. Children's Privacy</h2>
-  <p>HISN is a tool for parents to protect children. It is not directed at children and does not knowingly collect any personal information from children under 13. The app is installed and configured by parents. Children do not create accounts, enter personal information, or interact with any data collection.</p>
-  <p>HISN complies with the Children's Online Privacy Protection Act (COPPA).</p>
+  <h2>6. Prayer Times — External API</h2>
+  <p>HISN calculates Salah times using the <strong>Aladhan API</strong> (aladhan.com). The app sends the coordinates of the city you selected — not your real GPS location — and no personal information.</p>
 
   <!-- 7 -->
-  <h2>7. Data Security</h2>
-  <p>All data HISN stores lives on your device in Android's secure app storage (SharedPreferences and AsyncStorage). This data is:</p>
-  <ul>
-    <li>Not accessible to other apps on your device</li>
-    <li>Deleted automatically when HISN is uninstalled</li>
-    <li>Never transmitted to any server operated by HISN</li>
-  </ul>
+  <h2>7. Children's Privacy</h2>
+  <p>HISN is set up by a parent. A child's phone is linked with a code the parent creates; the child does not create an account, and does not enter a name, email address or any other personal information. The child's phone signs in with an anonymous identifier so that only that phone and the parent's account can read or change its record. The information kept about a child's device is listed in section 2 and is visible only to the linked parent.</p>
+  <p>A parent can delete all of it at any time by deleting their account in the app (section 9). HISN does not knowingly collect personal information from children under 13 beyond what the parent sets up, and complies with the Children's Online Privacy Protection Act (COPPA).</p>
 
   <!-- 8 -->
-  <h2>8. Third-Party Services</h2>
+  <h2>8. Security and Third-Party Services</h2>
+  <p>Server data is protected by access rules: a device record can be read only by the parent who created it and the child phone linked to it; a partnership only by its two members.</p>
   <table>
-    <tr>
-      <th>Service</th>
-      <th>Purpose</th>
-      <th>Data shared</th>
-    </tr>
-    <tr>
-      <td>Aladhan API</td>
-      <td>Prayer time calculation</td>
-      <td>City latitude/longitude only</td>
-    </tr>
-    <tr>
-      <td>Google Play Store</td>
-      <td>App distribution</td>
-      <td>Standard Play Store analytics (install counts, crash reports). See Google's privacy policy.</td>
-    </tr>
+    <tr><th>Service</th><th>Purpose</th><th>Data shared</th></tr>
+    <tr><td>Google Firebase (Authentication, Firestore, Cloud Messaging)</td><td>Accounts, syncing between phones, notifications</td><td>The data listed in section 2</td></tr>
+    <tr><td>Netlify</td><td>Runs the small server functions that send notifications and partner invitations</td><td>The notification or invitation being sent; nothing is stored</td></tr>
+    <tr><td>Resend</td><td>Delivers the partner invitation email</td><td>The partner's email address and the inviter's email address</td></tr>
+    <tr><td>Aladhan API</td><td>Prayer time calculation</td><td>City latitude/longitude only</td></tr>
+    <tr><td>Apple App Store / Google Play</td><td>App distribution</td><td>Standard store analytics. See their privacy policies.</td></tr>
   </table>
   <p>We do not use any advertising networks, analytics platforms, or data brokers.</p>
 
   <!-- 9 -->
-  <h2>9. Your Rights</h2>
-  <p>Since HISN does not collect personal data on our servers, there is no account to delete and no data for us to provide or remove. All your data exists only on your device and is deleted when you uninstall the app.</p>
-  <p>If you have questions about data on your specific device, contact us at fkhokhar989@gmail.com and we will help you understand exactly what is stored and how to remove it.</p>
+  <h2>9. Your Rights — Deleting Your Account and Data</h2>
+  <p>You can delete your account from inside the app: <strong>Settings → Delete Account</strong> (Parent and Self-Control modes) or <strong>Delete Account</strong> at the bottom of the Partner screen. This permanently deletes your account, your family link and child device records, the prayer log, your partnerships, your own requests, and your notification token. It takes effect immediately and cannot be undone.</p>
+  <p>If you cannot use the app, email <strong>hisnapp@gmail.com</strong> from the address on your account and we will delete it for you within 30 days. You may also ask us for a copy of the data held about your account.</p>
 
   <!-- 10 -->
   <h2>10. Changes to This Policy</h2>
@@ -392,7 +332,7 @@
   <h2>11. Halal Commitment</h2>
   <div class="highlight-box">
     <strong>Our commitment to you:</strong>
-    HISN was built as an act of service to the American Muslim community. We do not monetize your data. We do not sell information about Muslim families to anyone. The $5/month subscription exists only to cover server and maintenance costs. This is a trust — and we take that seriously.
+    HISN was built as an act of service to the Muslim community. We do not monetize your data. We do not sell information about Muslim families to anyone. This is a trust — and we take that seriously.
   </div>
 
   <!-- Contact -->
@@ -400,7 +340,7 @@
     <h2>Contact Us</h2>
     <p>Questions about this Privacy Policy or how HISN handles data?</p>
     <br>
-    <p><a href="mailto:fkhokhar989@gmail.com">fkhokhar989@gmail.com</a></p>
+    <p><a href="mailto:hisnapp@gmail.com">hisnapp@gmail.com</a></p>
     <br>
     <p style="font-size:13px;">We are a small independent operation. We will respond within 5 business days.</p>
   </div>
