@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HISN — Support</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #f9f7f4;
+    color: #1a1a1a;
+    line-height: 1.8;
+  }
+
+  header {
+    background: #0B3D2E;
+    padding: 40px 24px;
+    text-align: center;
+    border-bottom: 4px solid #c9a227;
+  }
+
+  header .bismillah {
+    color: #c9a227;
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+  }
+
+  header h1 {
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    margin-bottom: 4px;
+  }
+
+  header .arabic {
+    color: #c9a227;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 12px;
+  }
+
+  header .subtitle {
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 24px;
+  }
+
+  .effective-date {
+    background: #e8f5ee;
+    border-left: 4px solid #0B3D2E;
+    padding: 16px 20px;
+    margin-bottom: 40px;
+    border-radius: 0 8px 8px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #0B3D2E;
+  }
+
+  .intro {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #333;
+  }
+
+  h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #0B3D2E;
+    margin: 40px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e8f5ee;
+  }
+
+  h3 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 24px 0 10px;
+  }
+
+  p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #333;
+  }
+
+  ul {
+    margin: 12px 0 20px 24px;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #333;
+  }
+
+  .highlight-box {
+    background: #e8f5ee;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #0B3D2E;
+    line-height: 1.7;
+  }
+
+  .highlight-box strong {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: #0B3D2E;
+  }
+
+  .warning-box {
+    background: #fff8e8;
+    border-left: 4px solid #c9a227;
+    border-radius: 0 10px 10px 0;
+    padding: 20px 24px;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #5a4a00;
+    line-height: 1.7;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  th {
+    background: #0B3D2E;
+    color: #fff;
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+  }
+
+  tr:nth-child(even) td { background: #f5f5f5; }
+
+  .contact-box {
+    background: #0B3D2E;
+    border-radius: 12px;
+    padding: 32px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .contact-box h2 {
+    color: #fff;
+    border-bottom-color: rgba(201,162,39,0.3);
+    margin-top: 0;
+  }
+
+  .contact-box p {
+    color: rgba(255,255,255,0.8);
+    font-family: Arial, sans-serif;
+  }
+
+  .contact-box a {
+    color: #c9a227;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  footer {
+    background: #0B3D2E;
+    border-top: 4px solid #c9a227;
+    padding: 32px 24px;
+    text-align: center;
+  }
+
+  footer p {
+    color: rgba(255,255,255,0.6);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  footer .gold { color: #c9a227; }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 24px; }
+    .container { padding: 32px 16px; }
+    .intro { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</div>
+  <h1>HISN</h1>
+  <div class="arabic">حِصْن</div>
+  <div class="subtitle">SUPPORT</div>
+</header>
+
+<div class="container">
+
+  <div class="intro">
+    Need help with HISN? Email us and a real person will reply, usually within 5 business days.
+  </div>
+
+  <div class="contact-box">
+    <h2>Contact Us</h2>
+    <p><a href="mailto:hisnapp@gmail.com">hisnapp@gmail.com</a></p>
+    <br>
+    <p style="font-size:13px;">Please tell us whether you use an iPhone or an Android phone, and which mode you are in: Parent, Child, Self-Control or Partner.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <h3>How do I link my child's phone?</h3>
+  <p>On your own phone choose <strong>Parent</strong>, create an account and note the 6-character code. On your child's phone choose <strong>Child</strong>, complete the setup steps and enter the code at the last step.</p>
+
+  <h3>Why can't I see which apps are restricted on my child's iPhone?</h3>
+  <p>Apple does not reveal app names to HISN. Apps are chosen on the child's iPhone in Apple's own picker, and the parent's phone sees only how many were chosen. To change them, tap <strong>Allow app changes</strong> on the parent phone, then pick again on the child's iPhone within 15 minutes.</p>
+
+  <h3>A change I made has not reached my child's iPhone.</h3>
+  <p>iPhone applies changes when HISN is opened on the child's phone, or at the next scheduled time such as a prayer window or bedtime. Open HISN on the child's phone once to apply them immediately.</p>
+
+  <h3>How does the accountability partner work?</h3>
+  <p>In <strong>Self-Control</strong> mode you invite a friend by email. Once they accept, any request to lift a restriction goes to them for approval.</p>
+
+  <h3>How do I delete my account?</h3>
+  <p>Open <strong>Settings → Delete Account</strong> (Parent and Self-Control), or <strong>Delete Account</strong> at the bottom of the Partner screen. This permanently deletes your account and everything stored with it. If you cannot use the app, email us from the address on your account and we will delete it within 30 days.</p>
+
+  <p style="margin-top:32px;">See also our <a href="./">Privacy Policy</a>.</p>
+
+</div>
+
+<footer>
+  <p class="gold">HISN — حِصْن</p>
+  <p>Islamic Family Digital Protection</p>
+  <p>© 2026 HISN. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
